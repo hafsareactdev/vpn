@@ -1,0 +1,19 @@
+.resp_nav{ 
+    @apply pt-7 lg:hidden
+}
+.resp_logo{
+    @apply w-[100px] inline-block
+}
+.resp_menu_row{
+    @apply flex justify-between
+}
+.resp_menu_bar .resp_bar{
+    @apply py-2 px-3 border-[2px] rounded-md
+    hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]
+}
+.resp_menu{
+    @apply w-full p-5 bg-[#FFECEC] rounded-md
+}
+.resp_menu li a{
+    @apply  text-[16px] text-[#4F5665] font-normal font-rubik
+}
